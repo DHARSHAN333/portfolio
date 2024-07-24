@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline styles for skills progress bars */
+        .progress-bar {
+            background-color: #ddd;
+            width: 100%;
+            height: 20px;
+            margin: 10px 0;
+        }
+        .progress-bar div {
+            height: 100%;
+            background-color: #4caf50;
+        }
+    </style>
+</head>
+<body style="background-image: url(); background-repeat: no-repeat; background-size: cover;">
+    <div class="hero">
+        <nav>
+            <!-- <img src=" " alt="" class="logo"> -->
+            <h2 class="abc">
+                <span>&nbsp;  Port</span>folio
+            </h2>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#hireme">HIRE ME</a></li>
+            </ul>
+        </nav>
+        <div id="w-1">
+            <div class="detel">
+                <h1>I’m DHARSHAN <span>KUMAR</span></h1>
+                <p>This is my official portfolio website to show all details<br> An Embedded Enthusiast</p>
+                <a href="Dharshan Resume.pdf" class="xyz">DOWNLOAD CV</a>
+            </div>
+            <div class="images">
+                <img src="bg 2" class="shape">
+                <img src="STK-20240723-WA0006.webp" class="girl">
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="about-me">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <img src="electrical engineering img.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="bio">
+            <h2>Hi, I'm DHARSHAN K</h2>
+            <p>I am an Electronics and Communication Engineering student at Sri Krishna College of Technology, Coimbatore. I am passionate about embedded systems and have a strong interest in designing and developing innovative solutions.</p>
+            <p>My journey in the field of electronics began with a fascination for how things work. This curiosity led me to pursue a career in engineering, where I can combine my love for technology and problem-solving skills to create impactful projects.</p>
+            <p>Throughout my academic career, I have worked on various projects that involve microcontrollers, sensors, and communication protocols. I am always eager to learn new technologies and apply them in practical scenarios.</p>
+            <p>Besides academics, I enjoy participating in technical workshops, hackathons, and conferences to stay updated with the latest trends in the industry. I believe in continuous learning and strive to expand my knowledge and skills in the field of embedded systems.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <header class="skills-header">
+            <h1>My Skills</h1>
+            <p>Here’s a showcase of my skills and expertise in various technical areas. The progress bars and range sliders below represent my proficiency levels in these skills. Feel free to explore and get an insight into my technical capabilities.</p>
+        </header>
+        <div class="skill">
+            <h2>C++ Programming</h2>
+            <p>Proficiency: <span class="proficiency-percentage" id="cpp-percentage">85%</span></p>
+            <div class="progress-bar">
+                <div style="width: 85%;"></div>
+            </div>
+            <div class="range-container">
+                <input type="range" min="0" max="100" value="85" class="skill-range" id="cpp-range">
+                <label for="cpp-range" class="range-label">85%</label>
+            </div>
+        </div>
+    
+        <div class="skill">
+            <h2>Embedded Systems</h2>
+            <p>Proficiency: <span class="proficiency-percentage" id="embedded-percentage">80%</span></p>
+            <div class="progress-bar">
+                <div style="width: 80%;"></div>
+            </div>
+            <div class="range-container">
+                <input type="range" min="0" max="100" value="80" class="skill-range" id="embedded-range">
+                <label for="embedded-range" class="range-label">80%</label>
+            </div>
+        </div>
+    
+        <div class="skill">
+            <h2>Digital Circuits</h2>
+            <p>Proficiency: <span class="proficiency-percentage" id="digital-percentage">75%</span></p>
+            <div class="progress-bar">
+                <div style="width: 75%;"></div>
+            </div>
+            <div class="range-container">
+                <input type="range" min="0" max="100" value="75" class="skill-range" id="digital-range">
+                <label for="digital-range" class="range-label">75%</label>
+            </div>
+        </div>
+    
+        <div class="skill">
+            <h2>Analog Electronics</h2>
+            <p>Proficiency: <span class="proficiency-percentage" id="analog-percentage">70%</span></p>
+            <div class="progress-bar">
+                <div style="width: 70%;"></div>
+            </div>
+            <div class="range-container">
+                <input type="range" min="0" max="100" value="70" class="skill-range" id="analog-range">
+                <label for="analog-range" class="range-label">70%</label>
+            </div>
+          
+            </div>
+            <div class="iconn1">
+                <div class="iconn">
+                    <div><img src="embedly-icon.svg" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="java-icon.svg" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="c++ - Copy.png" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="mongodb-icon.svg" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="nodejs-horizontal.svg" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="reactjs-icon.svg" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="w3_html5-icon.svg" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="w3_css-official.svg" alt="Skill Icon"></div>
+                    <div></div>
+                    <div><img src="vlsi.jpeg" alt="Skill Icon"></div>
+                    
+                </div>
+
+            
+        </div>
+    </section>
+    
+    
+    
+
+    <section id="hireme" class="hire-me">
+        <header>
+            <h1>Hire Me</h1>
+        </header>
+        <h2>Why Hire Me?</h2>
+        <p>
+            As a dedicated Electronics and Communication Engineering student at Sri Krishna College of Technology, Coimbatore, with a deep passion for embedded systems and IoT technologies, I bring a strong technical foundation and hands-on experience to your projects. Below are some of the key reasons to consider me for your next engineering role:
+        </p>
+        <div class="skills">
+            <div class="skill">
+                <h3>Embedded Systems Expertise</h3>
+                <p>
+                    Proficient in microcontroller programming with platforms such as Arduino, Raspberry Pi, and STM32. Experienced in designing and implementing real-time embedded applications, integrating sensors, actuators, and communication modules.
+                </p>
+            </div>
+            <div class="skill">
+                <h3>IoT Development</h3>
+                <p>
+                    Skilled in developing IoT solutions that connect devices to the cloud for data collection and remote control. Familiar with protocols such as MQTT, HTTP, and CoAP, and experienced in using platforms like AWS IoT, Google Cloud IoT, and Azure IoT Hub.
+                </p>
+            </div>
+            <div class="skill">
+                <h3>Signal Processing</h3>
+                <p>
+                    Strong background in signal processing techniques, including filtering, modulation, and Fourier analysis. Able to design and analyze circuits and systems for effective signal acquisition and processing.
+                </p>
+            </div>
+            <div class="skill">
+                <h3>Technical Skills</h3>
+                <p>
+                    Proficient in C, C++, Python, and MATLAB for technical computing and algorithm development. Experienced in using tools such as Git for version control and collaboration, and familiar with Agile methodologies for project management.
+                </p>
+            </div>
+            <div class="skill">
+                <h3>Project Management</h3>
+                <p>
+                    Demonstrated ability to manage and execute complex projects from concept to completion, ensuring adherence to timelines and budget constraints. Skilled in documentation and reporting, providing clear and concise technical specifications and project updates.
+                </p>
+            </div>
+        </div>
+        <h2>Get in Touch</h2>
+        <p>
+            I am enthusiastic about the opportunity to contribute to your team and drive innovative solutions in the field of electronics and communication engineering. Please feel free to reach out to discuss potential collaborations or opportunities.
+        </p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:dharshan@example.com">dharshan@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/Dharshan-K" target="_blank">linkedin.com/in/Dharshan-K</a></p>
+        </div>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <div id="ft">
+            <div id="ft-ct">
+                <img src="https://pngimg.com/uploads/gmail_logo/gmail_logo_PNG2.png" height="30px" width="40px" alt="Gmail Logo">
+            </div>
+            <div id="ft-ct">
+                <h5>drdharshan@gmail.com</h5>
+                <h5>dharshan08@gmail.com</h5>
+            </div>
+            <div id="ft-cttt">
+                <img src="https://th.bing.com/th/id/R.739488d2e63f968db57a13bd684bc244?rik=xKLzDB3Xq1NcTA&riu=http%3a%2f%2fwww.juliusdesign.net%2fsm-reference%2fimg%2flinkedin-logo.png&ehk=ePBuuYmI21qB9b3AGgKQndT7RlTtBg4H4BgsrGmZi4k%3d&risl=&pid=ImgRaw&r=0" height="40px" width="40px" alt="LinkedIn Logo">
+            </div>
+            <div id="ft-ct">
+                <img src="https://i0.wp.com/totheinnovation.com/wp-content/uploads/2022/03/LeetCode-Logo.png?w=500&ssl=1" height="40px" width="40px" alt="LeetCode Logo">
+            </div>
+            <div id="ft-ct">
+                <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/8b9fc1fa-bb42-45c6-957b-3b6611c542f1.png?ixlib=react-9.0.3&ch=Width%2CDPR&auto=format&w=3524" height="40px" width="40px" alt="GitHub Logo">
+            </div>
+            <div id="ft-ct">
+                <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/57/b2/f2/57b2f224-e343-f22a-2681-a9ba6805f9dc/source/512x512bb.jpg" height="40px" width="40px" alt="Twitter Logo">
+            </div>
+            <div id="ft-ct">
+                <img src="https://th.bing.com/th/id/OIP.y2UI9Q6F7Rd2oxcZ0HDVmwHaHa?rs=1&pid=ImgDetMain" height="40px" width="40px" alt="Facebook Logo">
+            </div>
+            <div id="ft-ctt">
+                <img src="https://icon-library.com/images/windows-user-icon/windows-user-icon-25.jpg" height="40px" width="40px" alt="User Icon">
+            </div>
+            <div id="ft-ct">
+                <h4>+91 9965371309</h4>
+                <h4>+91 7339501309</h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
