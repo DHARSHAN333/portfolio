@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #130707;
+    background-color:#A0AECD;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 
 header, footer {
     background-color: #333;
-    color: #fff;
+    color: #f5f2f4f2;
     padding: 20px;
 }
 
@@ -27,7 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(54, 52, 52, 0.7);
 }
 
 nav .logo {
@@ -46,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #0f0e0e;
+    color: #f6f1f1;
     font-weight: bold;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -119,7 +120,7 @@ nav ul li a:hover {
 /* Projects Section Styles */
 .projects {
     padding: 50px 20px;
-    background-color: #f4f4f4;
+    background-color:#A0AECD;
 }
 
 .projects header {
@@ -134,18 +135,21 @@ nav ul li a:hover {
 }
 
 .project {
-    background: #fff;
+    background:#eaebed;
+    color: #0c0c0c;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(162, 237, 2, 0.1);
     margin: 20px;
     padding: 20px;
     width: 300px;
     text-align: center;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    align-self: center;
 }
 
 .project:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(158, 195, 25, 0.2);
     transform: translateY(-10px);
 }
 
@@ -179,9 +183,11 @@ nav ul li a:hover {
 /* Hire Me Section Styles */
 .hire-me {
     padding: 50px 20px;
-    background-color: #fff;
+    color: #01201c;
+    background-color: #A0AECD;
     text-align: center;
 }
+
 
 .hire-me h2 {
     margin-bottom: 20px;
@@ -194,7 +200,7 @@ nav ul li a:hover {
 }
 
 .skill {
-    background: #f4f4f4;
+    background: #f1f2f4;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -205,12 +211,13 @@ nav ul li a:hover {
 }
 
 .skill:hover {
-    background-color: #e1e1e1;
+    background-color: #eceef1;
     transform: translateY(-5px);
 }
 
 .skill h3 {
     margin-bottom: 10px;
+    color: #000c0b;
 }
 
 .contact-info p {
@@ -219,8 +226,8 @@ nav ul li a:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #A0AECD;
+    color: #f7f3f7;
     text-align: center;
     padding: 20px;
 }
@@ -327,7 +334,7 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(240, 233, 233);
+    color: rgb(249, 244, 249);
     font-weight: bold;
 }
 
@@ -342,7 +349,7 @@ nav ul li a:hover{
 
 .detel h1{
     font-size: 50px;
-    color: rgb(175, 110, 147);
+    color: rgb(247, 241, 244);
     margin-bottom: 20px;
 }
 
@@ -351,7 +358,7 @@ span{
 }
 
 .detel p{
-    color: rgb(86, 80, 80);
+    color: rgb(250, 248, 248);
     list-style: 24px;
 
 }
@@ -361,7 +368,7 @@ span{
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
-    color: #eff4fd;
+    color: #f6f2f5;
     display: inline-block;
     border-radius: 5px;
     margin: 30px 0;
@@ -375,7 +382,7 @@ span{
 /* General styles for the skills section */
 .skills {
     padding: 30px; /* Increased padding for better spacing */
-    background-color: #f9f9f9; /* Light background color */
+    background-color: #A0AECD; /* Light background color */
     border-radius: 10px; /* Rounded corners for a softer look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
     margin: 20px auto;
@@ -389,7 +396,7 @@ span{
 
 .skills h1 {
     font-size: 2.5em;
-    color: #333; /* Darker text color */
+    color: #edebeb; /* Darker text color */
 }
 
 .skills div {
@@ -398,19 +405,19 @@ span{
 
 .skills h2 {
     font-size: 2em;
-    color: #009688; /* Teal color for headers */
+    color: #d8e2e1; /* Teal color for headers */
     margin-bottom: 10px;
 }
 
 .skills p {
     font-size: 1.1em;
-    color: #555; /* Slightly darker text color */
+    color: #f2e8e8; /* Slightly darker text color */
     line-height: 1.6;
     padding: 0 10px; /* Added padding for better readability */
 }
 
 .skills .progress-bar {
-    background-color: #e0e0e0; /* Light gray background for progress bars */
+    background-color: #eef0f5; /* Light gray background for progress bars */
     width: 100%;
     height: 20px;
     border-radius: 10px;
@@ -422,7 +429,7 @@ span{
 .skills .progress-bar div {
     height: 100%;
     border-radius: 10px;
-    background-color: #009688; /* Teal color for progress fill */
+    background-color: #f2f4f4; /* Teal color for progress fill */
 }
 
 .skills .skill-range {
@@ -437,7 +444,7 @@ span{
     width: 22px; /* Slightly larger thumb */
     height: 22px;
     border-radius: 50%;
-    background: #009688; /* Teal color for thumb */
+    background: #171919; /* Teal color for thumb */
     cursor: pointer;
 }
 
@@ -445,7 +452,7 @@ span{
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: #009688;
+    background: #252726;
     cursor: pointer;
 }
 
@@ -453,19 +460,19 @@ span{
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: #009688;
+    background: #191b1b;
     cursor: pointer;
 }
 
 .skills .proficiency-percentage {
     font-weight: bold;
-    color: #009688; /* Teal color for proficiency percentage */
+    color: #eff1f1; /* Teal color for proficiency percentage */
 }
 
 /* General styles for the skills section */
 .skills {
     padding: 30px; /* Increased padding for better spacing */
-    background-color: #f9f9f9; /* Light background color */
+    background-color: #eceff6; /* Light background color */
     border-radius: 10px; /* Rounded corners for a softer look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
     margin: 20px auto;
@@ -479,7 +486,7 @@ span{
 
 .skills h1 {
     font-size: 2.5em;
-    color: #333; /* Darker text color */
+    color: #fbf6f6; /* Darker text color */
 }
 
 .skills div {
@@ -488,19 +495,19 @@ span{
 
 .skills h2 {
     font-size: 2em;
-    color: #009688; /* Teal color for headers */
+    color: #000c0b; /* Teal color for headers */
     margin-bottom: 10px;
 }
 
 .skills p {
     font-size: 1.1em;
-    color: #555; /* Slightly darker text color */
+    color: #fbf8f8; /* Slightly darker text color */
     line-height: 1.6;
     padding: 0 10px; /* Added padding for better readability */
 }
 
 .skills .progress-bar {
-    background-color: #e0e0e0; /* Light gray background for progress bars */
+    background-color: #A0AECD; /* Light gray background for progress bars */
     width: 100%;
     height: 20px;
     border-radius: 10px;
@@ -512,7 +519,7 @@ span{
 .skills .progress-bar div {
     height: 100%;
     border-radius: 10px;
-    background-color: #009688; /* Teal color for progress fill */
+    background-color: #1b201f; /* Teal color for progress fill */
 }
 
 .skills .range-container {
@@ -533,7 +540,7 @@ span{
     width: 22px; /* Slightly larger thumb */
     height: 22px;
     border-radius: 50%;
-    background: #009688; /* Teal color for thumb */
+    background: #161818; /* Teal color for thumb */
     cursor: pointer;
 }
 
@@ -541,7 +548,7 @@ span{
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: #009688;
+    background: #212323;
     cursor: pointer;
 }
 
@@ -549,13 +556,13 @@ span{
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    background: #009688;
+    background: #1b1b1b;
     cursor: pointer;
 }
 
 .skills .range-label {
     font-weight: bold;
-    color: #009688; /* Teal color for proficiency percentage */
+    color: #eff9f9; /* Teal color for proficiency percentage */
     min-width: 50px; /* Minimum width to ensure alignment */
     text-align: center;
 }
@@ -566,12 +573,12 @@ span{
 
 .skills-header h1 {
     font-size: 2.5em;
-    color: #009688; /* Teal color for the main header */
+    color: #ebf3f3; /* Teal color for the main header */
 }
 
 .skills-header p {
     font-size: 1.2em;
-    color: #555; /* Darker text color for the description */
+    color: #f6eff2; /* Darker text color for the description */
     line-height: 1.6;
     margin-top: 10px;
     max-width: 800px; /* Set a max-width for better readability */
@@ -583,9 +590,9 @@ span{
     max-width: 600px; /* Limit the width of the form */
     margin: 0 auto; /* Center the form horizontally */
     padding: 20px;
-    border: 1px solid #ddd; /* Light border around the form */
+    border: 1px solid #A0AECD; /* Light border around the form */
     border-radius: 10px; /* Rounded corners for the form */
-    background-color: #f9f9f9; /* Light background color for the form */
+    background-color: #edeef2; /* Light background color for the form */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
 }
 
@@ -601,7 +608,7 @@ span{
     width: 100%; /* Full width for input fields */
     padding: 10px; /* Padding inside input fields */
     margin-bottom: 15px; /* Space below each input field */
-    border: 1px solid #ccc; /* Light border around input fields */
+    border: 1px solid #A0AECD; /* Light border around input fields */
     border-radius: 5px; /* Rounded corners for input fields */
     font-size: 1em; /* Consistent font size */
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
@@ -615,8 +622,8 @@ span{
     display: inline-block;
     padding: 10px 20px; /* Padding inside the button */
     font-size: 1.1em; /* Slightly larger font size */
-    color: #fff; /* White text color */
-    background-color: #009688; /* Teal background color */
+    color: #f5e9e9; /* White text color */
+    background-color: #111212; /* Teal background color */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners for the button */
     cursor: pointer; /* Pointer cursor on hover */
@@ -624,7 +631,7 @@ span{
 }
 
 .contact-form button:hover {
-    background-color: #00796b; /* Darker teal on hover */
+    background-color: #010f0d; /* Darker teal on hover */
 }
 
 .contact-form button:focus {
@@ -662,4 +669,143 @@ span{
     100% {
         transform: translateX(-100%);
     }
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-left: 500px;
+}
+
+.images img{
+    height: 400px;
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+    transform: translate(-1%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.skill {
+    background: #A0AECD;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.skill:nth-child(even) {
+    animation: slideInLeft 0.5s forwards;
+}
+
+.skill:nth-child(odd) {
+    animation: slideInRight 0.5s forwards;
+}
+
+.skill:hover {
+    background-color: #A0AECD;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+    color: #000c0b;
+}
+
+/* Keyframe animations for sliding effects */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) translateY(0);
+    }
+}
+
+/* education details */
+.education {
+    position: relative;
+    width: 100%;
+    min-height: 60vh; /* Reduced height */
+    background-color: #f5f6f9;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px; /* Maintained padding for width */
+}
+.education .content {
+    max-width: 1000px; /* Maintained width */
+    color: #000807;
+    background-color: #A0AECD;
+    padding: 25px 25px 25px 25px;
+    border-radius: 20px;
+}
+.education .content h2 {
+    font-size: 2.5em; /* Adjusted font-size */
+    color: #000000;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+.education-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjusted gap */
+}
+.education-item {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px; /* Adjusted padding */
+    border-radius: 10px; /* Maintained border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Maintained box-shadow */
+}
+.education-item .seal {
+    width: 100px; /* Maintained seal size */
+    height: 100px; /* Maintained seal size */
+    margin-right: 20px; /* Maintained margin */
+}
+.education-info {
+    max-width: 700px; /* Maintained width */
+}
+.education-item h3 {
+    font-size: 2em; /* Adjusted font-size */
+    margin-bottom: 10px;
+    color: #111211;
+}
+.education-item p {
+    font-size: 1em; /* Maintained font-size */
+    margin: 5px 0; /* Maintained margin */
 }
